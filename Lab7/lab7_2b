@@ -1,0 +1,1 @@
+the umask output is 0002 in which the first '0' is the sticky bit. the maximum possible octals for a file is 777 and for a directory is 777. The default permissions given are 666 for files and 777 for directory. The current files have an octal of 664 and the directory has 775.

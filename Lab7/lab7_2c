@@ -1,0 +1,6 @@
+The file permissions for newfile1 obtained is :- -rw-rw-r--
+1) - : file (file type)
+2) rw- : permissions for user
+3) rw- : permissions for group
+4) r-- : permissions for everyone else
+In this file, the user and the group has been given read and write permissions but no execution permission. Everyone else have been given only read permission and no write or execute permission. 

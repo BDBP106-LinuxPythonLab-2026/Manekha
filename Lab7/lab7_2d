@@ -1,0 +1,6 @@
+The file permissions for newfile1 obtained is :- drwxrwxr-x
+1) d : directory (file type)
+2) rwx : permissions for user
+3) rwx : permissions for group
+4) r-x : permissions for everyone else
+In this directory, the user and the group has been given read, write and execution permissions. Everyone else have been given only read and execute permission and no write permission. 

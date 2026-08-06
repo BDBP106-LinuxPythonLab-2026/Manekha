@@ -1,0 +1,8 @@
+The file permissions for newfile obtained is :- -rw-rw-r--
+the first "-" means file
+the rest of the nine characters are split into three parts:-
+1) rw- : permissions for user
+2) rw- : permissions for group
+3) r-- : permissions for everyone else
+r stands for read, w for write and x for execute permissions.
+In this file, the user and the group has been given read and write permissions but no execution permission as "-" here means no permission. Everyone else have been given only read permission and no write or execute permission.  
