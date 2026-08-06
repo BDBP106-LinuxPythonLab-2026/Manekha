@@ -1,0 +1,10 @@
+${debian_chroot:+($debian_chroot)} :- Displays the chroot environment name.
+
+\[\033[01;32m\]\u@\h :- it renders username and hostname in bold green.
+
+\033[01;34m\]\w :- it renders the current working directory path in bold blue.
+
+${debian_chroot:+($debian_chroot)}\u@\h:\w\$ :- this is plain text prompt used if the terminal is unable to support ANSI colors. it shows the same layout but without the colors.
+
+\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1 :- this appends escape sequences to the existing $PSI variable. Instead of changing the visible text ob command line, it updates the terminal window or tab title to display the current directory.
+

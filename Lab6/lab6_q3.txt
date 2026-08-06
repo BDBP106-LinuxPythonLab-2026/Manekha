@@ -1,0 +1,7 @@
+HISTCONTROL=ignoreboth :- this variable filters out specific types of commands from being saved to our history list. The value ignoreboth is a shorthand combination of two distinct rules:
+ignorespace: Any command that we start with a leading space character will not be saved. This is useful for hiding commands containing sensitive passwords or API keys.
+ignoredups: If we run the exact same command multiple times consecutively, only the first instance is saved. It prevents our history from being cluttered by repetitive entries.
+
+HISTSIZE=1000 :- This controls our active session memory. It dictates the maximum number of commands that Bash will maintain in its temporary internal memory cache during our current terminal session. With a value of 1000, we can scroll back through up to 1,000 commands using the arrow keys or the history command before older entries begin dropping out of active memory.
+
+HISTFILESIZE=2000 :- This controls our permanent disk storage. It sets the maximum number of command lines allowed inside our permanent history file. When our current terminal session ends and writes its cached commands to disk, the file will automatically truncate to ensure it never exceeds 2000 total lines, preventing our hard drive from filling up over time.

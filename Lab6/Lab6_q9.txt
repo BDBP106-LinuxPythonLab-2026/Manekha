@@ -1,0 +1,10 @@
+9.
+iii, It listed all the directories stacked in order along with the index for each.
+
+iv, The top most directory was switched to the bottom of the stack and the directory on index 1 becomes the current directory.
+
+v, It converted and replaced the current directory into a duplicate of the previous directory.
+
+viii, popd +2 removed the directory at index 2 whereas pushd +2 pushed the directory at index 2 onto the top of the stack.
+
+ix, The entry at '0' is the current directory and it keeps getting rearranged and stacked based on the commands given.

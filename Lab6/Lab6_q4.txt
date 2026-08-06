@@ -1,0 +1,1 @@
+which locates the executable file running in our current shell. whereis performs a broader search, finding the executable, source code files, and manual pages for a command.
