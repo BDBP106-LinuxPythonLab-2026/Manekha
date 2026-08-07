@@ -1,0 +1,7 @@
+Inorder to go to the 70th line the command used was ":70"
+To insert the given line into the 70th line the command used was "i" to get into insert mode.
+The given line is entered into 70th line.
+exit into normal mode by striking 'Esc' (escape).
+Inorder to change the word 'important' to 'critical', the following command was used - " :s/important/critical ".
+entering the command provides the output where in the line, the word 'important' is replaced by the new word 'critical'.
+

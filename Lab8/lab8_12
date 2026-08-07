@@ -1,0 +1,4 @@
+The current line is - 70
+Inorder to jump to the end of the line, the command provided is ":$"
+Inorder to jump back to the previous line, the command provided is ":70"
+

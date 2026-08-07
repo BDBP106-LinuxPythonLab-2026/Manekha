@@ -1,0 +1,23 @@
+   To go to the top of the file, enter the key g two times.
+   press 'i' to enter into the insert mode.
+   press the spacebar to give a space in the first line.
+   esc from the insert to normal mode.
+   to go into visual mode, the keys used should be : ctrl+v
+   yank the space by pressing 'y'.
+   press j to go down to the next line.
+   press shift+p to paste the space before the cursor.
+   press the '.' key to repeat the paste option.
+   keep repeating 'j' and '.' alternatively upto 10-20 lines inorder to make the process of pasting easier.
+   press 'gg' to get back to the top of the text.
+   press 'h' to get to the space on the first line.
+   enter visual mode by providing 'ctrl+v'.
+   press j till the last 10th or 20th line, where the space ends.
+   press y to copy the whole block of space.
+   press 'j' to go down the line where space is not present and click shift+p. the whole block gets copied providing space for the next 10 or 20 lines.
+   press 'gg' to go back to the top.
+   go to the space and enter visual mode by ctrl+v.
+   keep pressing 'j' till the last line.
+   copy the whole block by y.
+   ppress 'l' to go one block right and press shift+p to intend the space.
+   repeat the last step again to provide one more block of spacel.
+ 

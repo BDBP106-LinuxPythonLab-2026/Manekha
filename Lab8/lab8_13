@@ -1,0 +1,9 @@
+:$ - this command is used first to get to the last line.
+then enter $ to get to the end of the line.
+enter the insert mode by stroking the 'i' key.
+type the given sentence to the line.
+escape from insert to normal mode.
+take the cursor to the parentheses by stroking thr 'l' key. 
+once the cursor reaches the parentheses enter the visual mode by pressing ctrl+v.
+move the cursor to the next character after the parentheses to highlight the content inside the parentheses and also including the parentheses.
+press x to delete the selected part of the line. 

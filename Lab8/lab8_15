@@ -1,0 +1,5 @@
+1)The line spaces can be deleted by first going to visual mode via ctrl+v, selecting the extra spaces and pressing 'x' or by going to insert mode via 'i' and manually deleting each space.
+2)To replace or correct one character, the cursor should be placed on the character and the keystrokes 'r' should be used to type and replace the character. To insert character press 'i' to get into insert mode and place the  cursor where the desired character needs to be inserted. Extra characters like in line 6 can be deleted by 'x'. 
+3)The punctuations can be inserted by entering insert mode. Punctuations cane be deleted using 'x'.
+4)Unwanted words are removed either by doing 'dw' to delete a particular word or by entering visual mode (ctrl+v), selecting the word and then deleting the selected word ('x').
+5)Alignmnets can be done using visual mode or insert mode, by deleteing and adding spaces.
