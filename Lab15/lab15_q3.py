@@ -1,0 +1,10 @@
+k=int(input("Enter a number: "))
+n=int(input("Enter a number: "))
+
+print("Addition: "+str(k+n))
+print("Subtraction: "+str(k-n))
+print("Multiplication: "+str(k*n))
+print("Floating point division: "+str(k/n))
+print("Integer division: "+str(k//n))
+print("Modulus: "+str(k%n))
+print("Exponent: "+str(k**n))
