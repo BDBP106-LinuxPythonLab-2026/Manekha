@@ -1,0 +1,13 @@
+a=[i for i in range (1,51)]
+print(a[::-1])
+print(a[::-3])
+print(a[:1:-2])
+print(a[-1:-1:-1])
+print(a[:-5:-1])
+print(a[:0:-1])
+print(a[:-1:-1])
+print(a[0:-5:-1])
+print(a[-1:5:-1])
+print(a[2:2:-1])
+print(a[2:1:-1])
+print(a[0:-5])
